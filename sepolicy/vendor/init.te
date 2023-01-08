@@ -27,3 +27,5 @@ allow init vendor_sysfs_vibrator:file create_file_perms;
 allow init debugfs_tracing_debug:dir mounton;
 
 allow init vendor_sysfs_scsi_host:file w_file_perms;
+
+allow init proc:file { write };
