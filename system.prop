@@ -8,6 +8,9 @@ audio.offload.video=false
 media.aac_51_output_enabled=true
 ro.af.client_heap_size_kbyte=7168
 
+# Bluetooth
+persist.vendor.btstack.aac_frm_ctl.enabled=true
+
 # Charger
 ro.charger.enable_suspend=1
 
@@ -47,6 +50,9 @@ arm64.memtag.process.system_server=off
 # Netmgrd
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
+
+# NFC
+ro.nfc.port=I2C
 
 # RTT
 config.disable_rtt=true
