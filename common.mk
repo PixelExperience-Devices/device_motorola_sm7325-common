@@ -556,5 +556,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Inherit extra stuff
+$(call inherit-product-if-exists,vendor/motorola-extra/config.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
